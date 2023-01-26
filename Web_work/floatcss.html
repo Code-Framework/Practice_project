@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>float clear in css</title>
+    <style>
+        *{
+box-sizing:border-box;
+        }
+        body{
+            font-family:cursive;
+        }
+
+        .container{
+            width:900px;
+            border:2px solid purple;
+            margin:auto;
+            background-color:rgb(75, 68, 68);
+
+            }
+        .item{
+        height: 300px;
+        border:2px solid rgb(145, 132, 216);
+        margin:2px 2px;
+        padding:40px 45px;
+        background-color:rgb(48, 39, 39);
+
+
+        }
+        #fruit{
+     background-color:rgb(192, 228, 228);
+       float:left;
+        width:50%;
+    
+
+               }
+       #computer{
+       background-color:rgb(189, 199, 116);
+       float:left;
+       width:49%;
+
+}
+      #stationery{      
+    /* float:left; */
+    clear:both;
+    background-color:rgb(223, 195, 195);
+    border:2px solid purple;
+    width:100%;
+    /* margin-right:px; */
+
+    padding:10px 20px;
+
+}
+    </style>
+</head>
+<body>
+    <div class ="container">
+        <div id="fruit" class="item">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt iusto minima dolor possimus magnam, earum impedit animi vitae itaque! Quia dolorum sint dolorem earum magnam pariatur veniam sunt id consequuntur.</p></div>
+<div id="computer" class="item">
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus aliquid a delectus placeat, voluptas ab et velit facilis libero illum quas quia eligendi debitis eum quod recusandae sequi distinctio cumque!</p>
+</div>
+    <div id="stationery" class="item">
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique, possimus sequi, aliquid quo dicta fuga necessitatibus aut eius voluptas ratione voluptates, sint vel omnis cumque dolorem vero quidem praesentium exercitationem!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam culpa deleniti maiores eum? Consequuntur soluta, et explicabo dolore possimus incidunt quaerat culpa hic minus, nesciunt esse, ratione ipsum quidem accusamus?Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, magni? Blanditiis culpa quos, nemo eligendi soluta ipsam delectus ad commodi! Similique blanditiis exercitationem totam culpa? Quo optio voluptatum harum cum, commodi magni iusto officiis sunt amet ad, dolor fugit tempora ab numquam pariatur excepturi corrupti veniam, nam fuga aspernatur sit nostrum doloremque quaerat odit! Quis perspiciatis rerum commodi, necessitatibus odio dolores labore accusamus ratione recusandae! Vero, mollitia. Eum, dignissimos exercitationem.
+        </p>
+    </div>
+</div>
+    
+</body>
+</html>

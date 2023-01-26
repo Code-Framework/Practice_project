@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation menu</title>
+    <style>
+        body {
+            font-family: cursive;
+        }
+
+        header {
+            background-color: white;
+        }
+
+        .navbar {
+            background-color: rgb(241, 241, 241);
+            border-radius: 10px;
+            height: auto;
+            width: auto;
+        }
+
+        span {
+            overflow: auto;
+        }
+
+        span {
+            font-weight: bold;
+            text-align: center;
+            border: 2px solid white;
+            border-radius: 5px;
+            background-color: white;
+            float: left;
+            width: 12%;
+            height: 25px;
+            padding: 3px 5px;
+
+        }
+
+        a {
+
+            text-decoration: none;
+            font-size: 22px;
+            margin: 0px 0px;
+            padding: 0px 0px;
+        }
+
+        .search {
+            font-family: cursive;
+            font-size: 24px;
+            float: left;
+            margin-left: 140px;
+            border: 3px solid black;
+            border-radius: 9px;
+            width: 25%;
+            height: 25px padding 2px 2px;
+
+
+
+
+        }
+
+        span:hover {
+            border: 2px solid black;
+        }
+
+        a:hover {
+            background-color: white;
+            color: red;
+
+
+        }
+
+        .search:hover {
+
+            border: 3px solid black;
+
+        }
+
+        .search:active {
+            border: 3px solid white;
+            color: green;
+        }
+
+        .search:checked {
+            color: black;
+        }
+
+        .rh {
+            width: 13%;
+
+        }
+
+        .btn {
+            font-family: cursive;
+            font-size: 18px;
+            padding: 0px 1px;
+
+            border: 2px solid black;
+            border-radius: 10px;
+            float: right;
+            width: 100px;
+            height: 37px;
+            margin-right: 2.5%;
+        }
+
+        .btn:hover {
+            border: 3px solid lightgreen;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <span class="rr"><a href="#">HOME</a></span>
+            <span class="rr"><a href="#">PORTFOLIO</a></span>
+            <span class="rr"><a href="#">ABOUT US</a></span>
+            <span class="rh"><a href="#">CONTACT US</a></span>
+            <input type="text" class="search" placeholder="search here">
+            <button class="btn" value="submit">submit</button>
+        </nav>
+    </header>
+</body>
+
+</html>
