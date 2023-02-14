@@ -1,0 +1,1 @@
+late collision in show insterface command indicate duplex-mismatch
