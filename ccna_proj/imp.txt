@@ -1,1 +1,41 @@
+#################################################################################################################################################
 late collision in show insterface command indicate duplex-mismatch
+
+#################################################################################################################################################
+ver imp subnetting 
+
+network portion remains unmanupluated whereas hosts bits can be changed
+when subnetting network the 0 bits of network runs from right to left until all the bits become 1 assigned to network portion for subnet
+##################################################################################################################################################
+can a pc 192.168.255.1 /17   can ping 192.168.128.1/17
+yes ? how || the first two octets of ip are same hence on same network but because the network is subnetted 
+in order to check whether thay are in same subnett or not cosider the login below
+
+1. the third octet is 255 it means 1111 1111 in binary and in second ip the third octet is 128 means 10000 0000 and because the where are taking /17 cider notation which means the one extra bit from host which is matching with the binary of 128 1000 0000 considering only the first bit \yes device are in same subnet or network  and can ping each other.img 1
+###################################################################################################################################################
+192.168.1.64/26 is a subnet how you gonna know the first and last host without just increasing the 64 to 65
+soll: 192.168.1.00 000000
+  64 is =        1
+  so in order to get first host ip up the last bit
+                 1 000001 ==count full octet : Result is 65      [look for image 20]
+soll: broad
+      192.168.1.01 111111 =count full octet : Result is 127
+########################################################################\
+In multicast : in order to get traffic :pc must have to explicitly define that it is listening for traffic :
+like subscription service;
+##########################################################################
+Mac address
+46 bit 24 bit vendor specific : next 24 bits unique value 
+       |
+      ########                                  [look for image 30]
+            ||
+   0 if mac   0 if unicast and 1 if pc is multicast
+   is globally unique and 1 if locally administrated     
+###################################################################
+routers dont't just populate ip addressses ,they make routing table and store network addresses corresponds to various interfaces
+###
+gratuitous ARP Request. when ip is assisgned to network device it sends a gratuitous arp reques to announce its ip 
+
+
+
+      
