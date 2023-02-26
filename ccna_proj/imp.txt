@@ -35,7 +35,23 @@ Mac address
 routers dont't just populate ip addressses ,they make routing table and store network addresses corresponds to various interfaces
 ###
 gratuitous ARP Request. when ip is assisgned to network device it sends a gratuitous arp reques to announce its ip 
-
+############################################
+pvst is backword compitable with 802.d
+rpvst is still compitable to rpvst but conversion is slow
+spanning tree port fast interface does intp forwarding state as soon as switch get boot
+#############################################################
+LAyer -2 switch can forward packet from one vlan to another using SVI that has ip address which works as a default gateway to forward packet 
+for intervlan communication
+#####################################################################
+vty line are use for remote connection 
+there are 16 line is typical cisco switches and why there are so mant because of to provide flexibility 
+and multiple simulataneous connections
+VTY stands for Virtual Teletype
+###################################################
+setting applied to etherchannel virtual interface get auto applied to physical interfaces in that channel
+make sure that etherchannel interfaces setting is same also the same properties
+configure both physical interfaces and eterchannel interfcae
+#####################################################################
 
 
       
