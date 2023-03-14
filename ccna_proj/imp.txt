@@ -52,6 +52,25 @@ setting applied to etherchannel virtual interface get auto applied to physical i
 make sure that etherchannel interfaces setting is same also the same properties
 configure both physical interfaces and eterchannel interfcae
 #####################################################################
+DSU AND CSU
+data service unit and channel service unit
+###########################
+Ethernet is a technology which can be used with various physical media like utp ,stp fibre and more .additionaly there are various connectors like rj45 ,sfp and more 
+the is that ethernet is like a protocol of how data will be transmeted and received over the
+ cable not a wire with rj45 
+ ###################################################
+ Ethernet over MPLS (Multiprotocol Label Switching) and Ethernet over IP (Internet Protocol) are two different technologies that allow Ethernet traffic to be transmitted over a wide area network (WAN).
+########################################
+serial link for wan :older technology :protocol used :HDLC(high data link control) and PPP
+ethernet wan :most common today  :protocol used MPLS(multiprotocol label switching and IP (internet protocol) 
+######################################################
+cable tv provider uses coaxial cable for signal transmission and in order to convert signal to digital analog an analog to digital deviced is used
+How ever now the cable providers shifting towards digital line 
+where speed is hight and no need to use converter
+########################################################################
+sh protocol command is imp
+#################
+
 
 
       
