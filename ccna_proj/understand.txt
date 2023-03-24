@@ -1,0 +1,7 @@
+# Routing
+Ospf states 
+DR/BDR
+Dother
+#
+Ospf routes
+
