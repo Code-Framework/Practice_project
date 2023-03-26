@@ -70,7 +70,22 @@ where speed is hight and no need to use converter
 ########################################################################
 sh protocol command is imp
 #################
+IF ospf says go left and EIGP says go right 
+Administrative distance will be used as tie breaker
+#########################################
+IF a router have 3 route to get to an ip :the router will choose the path with longest match with subnet eventhough the administrative distance is high of a protocol
 
+###
+default routes are used in multiple area os ospf to reduce routing table entries
+routers only knows some or only its area routes
+# Routes not in routing table are forwarded to default routes
+###########################
+when ip routing is enabled : default gateway not going to work
+yes you have to set gateway of last resort
+#################################################
+IP relay is very important
+make sure ip replay or ip helper command is configured properly in case of dhcp
+############################################
 
 
       
