@@ -73,7 +73,7 @@ sh protocol command is imp
 IF ospf says go left and EIGP says go right 
 Administrative distance will be used as tie breaker
 #########################################
-IF a router have 3 route to get to an ip :the router will choose the path with longest match with subnet eventhough the administrative distance is high of a protocol
+IF a router have 3 route to get to an ip :the router will choose the path with longest match with subnet prefix eventhough the administrative distance is high of a protocol
 
 ###
 default routes are used in multiple area os ospf to reduce routing table entries
@@ -86,6 +86,15 @@ yes you have to set gateway of last resort
 IP relay is very important
 make sure ip replay or ip helper command is configured properly in case of dhcp
 ############################################
+administrative distance 
+Rip 120
+Ospf 110
+Eigp 90
+static route 1
+eBGP 20
+Ibgp 200
+IS-IS 150
+####################################
 
 
       
