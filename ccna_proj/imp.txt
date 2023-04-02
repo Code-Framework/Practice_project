@@ -95,6 +95,26 @@ eBGP 20
 Ibgp 200
 IS-IS 150
 ####################################
+managing cisco devices
+commands
+sh ver
+imp configurstion register 16 bit
+sh flash
+imp 
+boot system flash
+boot system tftp 
+if startup config found in startup config it will load ios if not rom mon with default config but after network check for  config
+config# : dir 
+sh file system
+#############################################################
+if we copy running conf from tftp ,the setting that is going to change is only the conflicting
+for ex
+if i have no loopback int in tftp running conf 
+but has in router runn conf 
+if i copy runn conf from tftp to router 
+the int loop 1 will not get remve 
+#######################################################################
+
 
 
       
