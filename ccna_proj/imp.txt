@@ -114,7 +114,27 @@ but has in router runn conf
 if i copy runn conf from tftp to router 
 the int loop 1 will not get remve 
 #######################################################################
+Infrastructure security
+see open ports and services
+show control-plane host open-ports
+#####################################
+clear line 0-150 is used to cleary vty line
+sh line 
+sh users
+sh sessions
+##################################
+access list can be bound to single port
+access list ,two types 
+standard :filter based on source address
+extended : filter based on destination addresses
+access list work on top down approach 
+if first access list is allowing network and second ,fourth and so on denying :network will be allowed because of top down approach
 
-
+standard access list :make near destination
+extended access lsit : setup near source
+#######################################################
+sh ip nat translation
+in static nat ,a ip is permentantly mapped to public ip 
+in dynamic ,the public ip are assigned from pool of ip addresses to private addresses
 
       

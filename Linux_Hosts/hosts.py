@@ -8,7 +8,7 @@ def replace_hosts_file():
         print(f'Error: {file_path} does not exist')
         sys.exit(1)
 
-    backup_path = '/etc/hosts.org'
+    backup_path = '/etc/hostss.org'
     shutil.copy2('/etc/hosts', backup_path)
 
     with open(file_path, 'r') as f:
