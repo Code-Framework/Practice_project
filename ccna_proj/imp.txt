@@ -136,5 +136,7 @@ extended access lsit : setup near source
 sh ip nat translation
 in static nat ,a ip is permentantly mapped to public ip 
 in dynamic ,the public ip are assigned from pool of ip addresses to private addresses
-
+imp
+! when port translation or overloading  outside port is  mainly used
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1
       
