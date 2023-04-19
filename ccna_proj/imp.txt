@@ -139,4 +139,91 @@ in dynamic ,the public ip are assigned from pool of ip addresses to private addr
 imp
 ! when port translation or overloading  outside port is  mainly used
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1
+#########################################################################
+in QOS layer 3 we used ipv4 header to define the priority of data
+previously in ipv4 3 bits where used but there are 8 
+so in dscp 6 bits are used tso that multiple class ses can be defined
+ipv4 =type of service bits
+the more the higher af number second more chances of drop 
+policers vs shapers 
+! policers drop packet if not according to policy (drop or buffer)
+shapers don't drop packat but delayed it to maintain the network shape (buffers )(cause tcp retransimision)
+
+####################################ospf
+dr and bdr ellection are done by the hello packet 
+the router with higest id will win 
+dr act as a medium of exchange of ospf lsa so that each pc dont have to repeat link state info 
+t!
+criteri (1 priority 2, highest  network id (loopback or int ip highest)
+first : router priority :
+second : the router with highest ip addr on an ospf interface will become dr
+third : if the loopback are setup : loop will be used as router id and become dr
+The DBD packets are used to determine whether the OSPF databases of the two routers are synchronized.
+imp
+FOR OSPF NEBIOUR RELATIONSHIO 
+NETWORK MUST BE PROPERLY SET
+CHECK FOR OSPF AREAS ERROR 
+CHECK FOR ANY INCONSISTENCY IN OSPF HELLLO ,DEAD PACKET INTERVAL
+CHECK FOR DEFAULT GATEAYS
+if router interfaces are in multiple area and there is no area 0 (ospf will not work)
+sollution create virtual tunnel between router 3 and 5 
+command is :area 1 virtual link 3.3.3.3 
+#################################################
+in ipv6 
+host portion willalways remian 64 bit 
+
+however the subnetting will be done in from network global prefix
+beakdown
+
+interfac id :64 bit
+SLA ID :16 BIT
+NLA ID:24
+RES:13 
+FP:001
+! 
+ANY ADDRESS STARTING WITH FF02 IS A MULTICAST ADDRESS
+ANY ADDRESS WITH fe80 IS A LINK LOCAL ADDRESS
+
+commands
+ipv6 router rip rip1
+int fa 0/0
+ipv6 rip rip1 enable
+
+for converting ipv4 to ipv6 : /48 mask will be used in ipv6
+FF02::2 is used for router-to-router communication, while FF02::1 is used for node-to-node communication.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       
