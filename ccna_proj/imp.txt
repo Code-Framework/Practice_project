@@ -191,12 +191,25 @@ ipv6 rip rip1 enable
 
 for converting ipv4 to ipv6 : /48 mask will be used in ipv6
 FF02::2 is used for router-to-router communication, while FF02::1 is used for node-to-node communication.
+##################################################WAN#####
+CSU DSU 
+controls the speed and timint at which the router serial interfaces can send and receive bits over the serial cable 
 
+we don't have the ability to configure the speed of serial conection
 
+data communication equiment (csu dsu)
+data terminal eq (router)
 
-
-
-
+mac addresses are not used in HDLC header
+in ipv6 next hop is router link local address
+#################################################VPN###########
+symentric encription algorithum = same key bot side
+AES,DSA,3DES
+asymetric encription algorithum = seprate keys for encription and decryption
+RSA 
+#################generic routing encapulation###############
+no encription and authontication
+ADJUST MTU IF NECESSARY IN GRE SO THAT THERE IS ENOUGH SPACE FOR PALYLOAS
 
 
 
